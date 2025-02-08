@@ -1,0 +1,71 @@
+header {
+  margin: 0;
+  padding: 0;
+}
+
+.carrito {
+  width: 7%;
+  height: auto;
+  display: block;
+}
+
+/* Contenedor principal de la barra de navegación */
+.navbar-header {
+  background-color: rgb(74, 118, 169);
+  display: flex;
+  justify-content: space-between; /* Distribuye los elementos de manera uniforme */
+  align-items: center; /* Asegura que todos los elementos estén alineados verticalmente */
+  padding: 10px 50px; /* Se redujo el padding lateral para evitar exceso de espacio */
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; /* Centra el navbar en la pantalla */
+}
+
+/* Contenedor de la barra de navegación que incluye el logo, nav y carrito */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilo del logo */
+.logo {
+  width: 100px; /* Ajusta según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  display: block;
+}
+
+/* Contenedor de categorías */
+.category-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Estilo de los elementos de la categoría */
+.category-container li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.category-container li:hover {
+  color: #007bff;
+}
+
+.welcome-message {
+  font-size: 24px; /* Ajusta el tamaño de la fuente */
+  font-weight: bold; /* Opcional: Negrita */
+  color: #1bdaad; /* Color del texto */
+  text-align: center; /* Centra el texto */
+  margin: 20px 0; /* Espaciado opcional */
+}
