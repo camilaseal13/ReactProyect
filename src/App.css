@@ -3,8 +3,16 @@ header {
   padding: 0;
 }
 
+/* Estilo del logo */
+.logo {
+  width: 100px; /* Ajusta según sea necesario */
+  height: auto; /* Mantén la proporción de la imagen */
+  display: block;
+}
+
 .carrito {
-  width: 7%;
+  margin: 0;
+  width: 5%;
   height: auto;
   display: block;
 }
@@ -15,7 +23,7 @@ header {
   display: flex;
   justify-content: space-between; /* Distribuye los elementos de manera uniforme */
   align-items: center; /* Asegura que todos los elementos estén alineados verticalmente */
-  padding: 10px 50px; /* Se redujo el padding lateral para evitar exceso de espacio */
+  padding: 10px 120px; /* Se redujo el padding lateral para evitar exceso de espacio */
   width: 100%;
   max-width: 1200px;
   margin: 0 auto; /* Centra el navbar en la pantalla */
@@ -28,13 +36,6 @@ header {
   align-items: center;
   margin: 0;
   padding: 0;
-}
-
-/* Estilo del logo */
-.logo {
-  width: 100px; /* Ajusta según sea necesario */
-  height: auto; /* Mantén la proporción de la imagen */
-  display: block;
 }
 
 /* Contenedor de categorías */
@@ -54,18 +55,24 @@ header {
   cursor: pointer;
   font-size: 16px;
   font-weight: bold;
-  color: #333;
+  color: #000000;
   transition: color 0.3s ease;
 }
 
 .category-container li:hover {
-  color: #007bff;
+  color: #00ff6e;
 }
 
 .welcome-message {
-  font-size: 24px; /* Ajusta el tamaño de la fuente */
+  font-size: 44px; /* Ajusta el tamaño de la fuente */
   font-weight: bold; /* Opcional: Negrita */
-  color: #1bdaad; /* Color del texto */
+  color: #000000; /* Color del texto */
   text-align: center; /* Centra el texto */
   margin: 20px 0; /* Espaciado opcional */
+}
+
+body {
+  margin: 0;
+  display: flex;
+  background-color: #ccc8c8;
 }
